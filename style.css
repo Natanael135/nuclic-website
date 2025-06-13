@@ -1,0 +1,16 @@
+@import url(./estilosGlobais/style.css);
+
+:root {
+  --primary: #0a5573;
+  --secondary: #0074d9;
+  --background: #fcfaf9;
+  --text: #333333;
+  --contact: #f0fff0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+}
+

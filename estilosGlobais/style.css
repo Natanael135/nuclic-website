@@ -1,0 +1,33 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+/* ===== RESET CSS ESSENCIAL E MODERNO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Onest", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remover estilo padrão de elementos comuns */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== ROOT VARIABLES (SUAS CORES) ===== */
+:root {
+  --primary: #0a5573;
+  --secondary: #0074d9;
+  --background: #fcfaf9;
+  --text: #333333;
+  --contact: #f0fff0;
+}
