@@ -411,3 +411,31 @@
     max-width: 50%;
   }
 }
+
+
+
+/* CARROSSEL EXPERIMENTAL */
+.carousel {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  overflow: hidden;
+  width: 100%;
+  user-select: none;
+  padding: 2rem;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.carousel-track img {
+  width: 100px;
+  height: 100px;
+  margin: 0 2rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
