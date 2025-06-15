@@ -48,7 +48,6 @@
 .footer-links a {
   position: relative;
   color: var(--primary);
-  text-decoration: none;
   padding: 2px 0;
   font-size: 0.875rem;
   transition: color 0.2s ease;
