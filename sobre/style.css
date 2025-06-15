@@ -1,1 +1,75 @@
 @import url(../estilosGlobais/style.css);
+
+.back-link {
+  margin-left: 1rem;
+}
+
+.back-link a {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+.sobre {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.sobre-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sobre-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.sobre-subtitle {
+  font-size: 1.2rem;
+  color: var(--primary);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sobre-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.sobre-text p {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Responsivo para telas maiores */
+@media (min-width: 768px) {
+  .sobre-title {
+    font-size: 2rem;
+  }
+
+  .back-link {
+    width: 100%;
+    min-width: 700px;
+    max-width: 900px;
+    justify-self: center;
+  }
+
+  .sobre-subtitle {
+    font-size: 1.5rem;
+  }
+  .back-link a {
+    font-size: 1rem;
+  }
+}
