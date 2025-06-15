@@ -1,8 +1,7 @@
 const carousel = document.querySelector(".carousel");
 const track = carousel.querySelector(".carousel-track");
 
-track.innerHTML += track.innerHTML;
-
+track.innerHTML += track.innerHTML + track.innerHTML; 
 let translate = 0;
 const speed = 1;
 let isDragging = false;
@@ -24,7 +23,6 @@ function animate() {
 }
 animate();
 
-
 carousel.addEventListener("mousedown", (e) => {
   isDragging = true;
   startX = e.clientX;
@@ -39,7 +37,6 @@ window.addEventListener("mousemove", (e) => {
   lastX = e.clientX;
   translate += dx;
 });
-
 
 carousel.addEventListener("touchstart", (e) => {
   isDragging = true;
