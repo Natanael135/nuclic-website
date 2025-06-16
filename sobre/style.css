@@ -115,13 +115,20 @@
 }
 
 .profile-card h3 {
-  margin: 10px 0 5px;
-  font-size: 1.2rem;
+  margin: 5px;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.profile-card h4 {
+  margin-bottom: 5px;
+  font-size: 0.875rem;
   color: var(--primary);
 }
 
 .profile-card p {
   font-size: 0.875rem;
+  color: var(--text);
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;
