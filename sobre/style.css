@@ -121,7 +121,7 @@
 }
 
 .profile-card p {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;
